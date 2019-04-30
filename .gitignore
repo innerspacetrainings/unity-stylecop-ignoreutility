@@ -34,3 +34,8 @@ sysinfo.txt
 
 # Builds
 *.unitypackage
+
+# Rider
+/.idea
+Assets/Plugins/Editor/JetBrains
+Assets/Plugins/Editor/JetBrains.meta
