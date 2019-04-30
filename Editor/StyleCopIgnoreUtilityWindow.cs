@@ -169,12 +169,11 @@
             this.indentLevel++;
             this.ManualGUIIndent();
             EditorGUILayout.LabelField(filePathText);
-
             if (GUILayout.Button("...", GUILayout.Width(30)))
             {
                 var newFilePath = EditorUtility.OpenFilePanel(
                                       "StyleCop Settings File...",
-                                      string.Empty,
+                                      Application.dataPath.Replace("/Assets", string.Empty),
                                       StyleCopIgnoreUtility.StyleCopFileExtension);
 
                 if (!string.IsNullOrEmpty(newFilePath))

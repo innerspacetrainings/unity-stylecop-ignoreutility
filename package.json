@@ -1,0 +1,19 @@
+{
+    "name": "at.innerspace.stylecopignoreutility",
+    "version": "1.0.0",
+    "displayName": "StyleCop Ignore Utility",
+    "description": "A Unity Editor tool used to force StyleCop to ignore specified scripts as it checks for style violations in our projects.",
+    "unity": "2018.3",
+    "unityRelease": "10f1",
+    "keywords": [
+        "stylecop",
+        "ignore"
+    ],
+    "author": {
+        "name": "Red Blue Games",
+        "email": "contact+rbg@redbluegames.com",
+        "url": "http://redbluegames.com/"
+    },
+    "license": "MIT",
+    "dependencies": {}
+}
